@@ -28,6 +28,12 @@ import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import linkedin from "./linkedin.svg";
 import django from "./django.svg";
+import dashboard from "./dashboard.svg";
+import ecommerce from "./ecommerce.svg";
+import schedule from "./schedule.svg";
+import socialmedia from "./socialmedia.svg";
+import soundoff from "./soundoff.png";
+import soundon from "./soundon.png";
 
 export {
   html,
@@ -59,4 +65,10 @@ export {
   arrow,
   contact,
   linkedin,
+  dashboard,
+  ecommerce,
+  schedule,
+  socialmedia,
+  soundon,
+  soundoff,
 };

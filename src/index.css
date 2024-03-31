@@ -86,6 +86,13 @@ body:has(.card[data-color="green"]:hover) {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.glassmorphismpdf {
+  background: rgba(165, 200, 193);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
 .logo {
   border-radius: 8.889px;

@@ -33,6 +33,14 @@ const Navbar = () => {
         >
           Projects
         </NavLink>
+        <NavLink
+          to="/resume"
+          className={({ isActive }) =>
+            isActive ? "text-blue-600" : "text-black"
+          }
+        >
+          Resume
+        </NavLink>
       </nav>
     </header>
   );

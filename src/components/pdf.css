@@ -1,0 +1,11 @@
+.textLayer {
+  display: none;
+}
+
+.annotationLayer {
+  display: none;
+}
+
+.react-pdf__Page__canvas {
+  width: 400px;
+}

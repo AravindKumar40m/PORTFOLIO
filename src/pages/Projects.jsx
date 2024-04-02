@@ -14,7 +14,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p>
+      <p className="py-5">
         I've embarked on numerous projects throughout the years, but these are
         the ones I hold closest to my heart. Many of them are open-source, so if
         you come across something that piques your interest, feel free to
@@ -42,20 +42,39 @@ const Projects = () => {
                   {project.name}
                 </h4>
                 <p className="mt-2 text-slate-500">{project.description}</p>
-                <div className="mt-5 flex items-center gap-2 font-poppins">
-                  <Link
-                    to={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-semibold text-blue-600"
-                  >
-                    Live Link
-                  </Link>
-                  <img
-                    src={arrow}
-                    alt="arrow"
-                    className="w-4 h-4 object-contain"
-                  />
+                <div className="flex gap-10">
+                  <div className="mt-5 flex items-center gap-2 font-poppins">
+                    <Link
+                      to={project.gitLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-blue-600"
+                    >
+                      Github Link
+                    </Link>
+                    <img
+                      src={arrow}
+                      alt="arrow"
+                      className="w-4 h-4 object-contain"
+                    />
+                  </div>
+                  {project.liveLink && (
+                    <div className="mt-5 flex items-center gap-2 font-poppins">
+                      <Link
+                        to={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-blue-600"
+                      >
+                        Live Link
+                      </Link>
+                      <img
+                        src={arrow}
+                        alt="arrow"
+                        className="w-4 h-4 object-contain"
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

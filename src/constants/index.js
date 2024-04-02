@@ -227,14 +227,14 @@ export const projects = [
     name: "ScheduLink-TT",
     description:
       "Schedulink is a user-friendly project designed to simplify the process of creating timetables for universities and colleges. With its intuitive single-page interface, Schedulink offers effortless usability for both administrators and users.",
-    link: "https://github.com/AravindKumar40m/ScheduLink-TT",
+    gitLink: "https://github.com/AravindKumar40m/ScheduLink-TT",
   },
   {
     iconUrl: ecommerce,
     theme: "btn-back-blue",
     name: "ProShop",
     description: "E-commerce website using ReactJs and NodeJs",
-    link: "https://github.com/AravindKumar40m/ProShop",
+    gitLink: "https://github.com/AravindKumar40m/ProShop",
   },
   {
     iconUrl: dashboard,
@@ -242,7 +242,8 @@ export const projects = [
     name: "Student-Dashboard",
     description:
       "Visualizing student data through interactive charts for insightful analysis and decision-making.",
-    link: "https://github.com/AravindKumar40m/Student-dashboard",
+    gitLink: "https://github.com/AravindKumar40m/Student-dashboard",
+    liveLink: "https://student-dashboard-self.vercel.app/",
   },
   {
     iconUrl: socialmedia,
@@ -250,6 +251,6 @@ export const projects = [
     name: "Social-Media-App",
     description:
       "A modern and responsive social media application built with React.js",
-    link: "https://github.com/AravindKumar40m/Social-media-app-in-Reactjs",
+    gitLink: "https://github.com/AravindKumar40m/Social-media-app-in-Reactjs",
   },
 ];

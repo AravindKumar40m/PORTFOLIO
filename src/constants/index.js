@@ -235,6 +235,7 @@ export const projects = [
     name: "ProShop",
     description: "E-commerce website using ReactJs and NodeJs",
     gitLink: "https://github.com/AravindKumar40m/ProShop",
+    liveLink: "https://proshop-xgsa.onrender.com/",
   },
   {
     iconUrl: dashboard,
